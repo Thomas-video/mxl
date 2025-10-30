@@ -102,7 +102,7 @@ This format contains both fill and key inside a single grain.  The fill part sta
 Alpha samples are 'straight' (not premultiplied) and follow the same data range as the fill.  For example, if the fill is _video range_ (64 to 960) then the samples of the key are also _video range_.
 
 ```
-Video/v210alpha Grain Structure:
+video/v210alpha Grain Structure:
 ┌────────────────────────────────────────────────────────────────┐
 │                         FILL BUFFER                            │
 │                        (v210 format)                           │
